@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          type="text/css"/>
+    <link rel="stylesheet" href="app.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="styles/mobile.css"/>
+    <link rel="stylesheet" type="text/css"
+          media="only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)"
+          href="styles/tablet.css"/>
+    <meta name="viewport" content="width=device-width" , initial-scale="1">
+    <meta charset="UTF-8">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 contest-wrapper">
+
+            <div class=" col-md-4 contest-description__wrapper">
+                <h2>Trzy proste kroki do wygranej!</h2>
+                <div class="description-container">
+                    <p>1. W dniach 27.11 – 05.12.2015 kup dowolną książkę lub grę wydawnictwa Egmont.<br>
+                        2. Zdradź nam swój ulubiony przepis – może być świąteczny, ale niekoniecznie.<br>
+                        3. Wypełnij formularz zgłoszeniowy.
+                        <br>
+                        <br>
+                        <strong>Mamy dla Was dwie nagrody główne:
+                        </strong>
+                        1. W dniach 27.11 – 05.12.2015 kup dowolną książkę lub grę wydawnictwa Egmont.<br>
+                        2. Zdradź nam swój ulubiony przepis – może być świąteczny, ale niekoniecznie.<br>
+                        3. Wypełnij formularz zgłoszeniowy.<br>
+                        I sześć nagród dodatkowych:
+                        2 egzemplarze książki Tomasza Jakubiaka „Jakubiak lokalnie”
+                        2 egzemplarze książki Mariety Mareckiej „ABC gotowania”
+                        2 egzemplarze książki Doroty Świątkowskiej „Moje wypieki. Wielki powrót”
+                        Wyniki konkursu podamy 06.12.2015 do godz. 15:00. Laureatów poinformujemy o wygranej mailowo. Regulamin konkursu dostępny jest tutaj.</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-8 form-container">
+
+                <form class="form-horizontal" action="https://www.ravelo.pl/pub/mailKonkurs.php" method="post">
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="name">Wpisz swoje imię</label>
+
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="lastname">Wpisz swoje nazwisko</label>
+
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control" id="lastname" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="answer">Napisz swoją odpowiedź konkursową</label>
+
+                        <div class="col-sm-5">
+                            <textarea class="form-control" rows="4" cols="20" id="answer"></textarea>
+                        </div>
+                    </div>
+
+                    <!--checkbox-->
+
+                    <div class="form-group">
+
+                        <input class="checkbox col-sm-3 control-label" type="checkbox" id="agreement" required>
+
+                        <div class="col-sm-5">
+                            <label for="agreement" class="agreement-label">Wyrażam zgodę na przetwarzanie moich danych
+                                osobowych zawartych w zgłoszeniu dla potrzeb konkursu, zgodnie z ustawą z dnia 29 sierpnia 1997
+                                roku o ochronie danych osobowych. (Dz. U. z 2002 r. Nr 101, poz. 926 z późn. zm.)". </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <input class="checkbox col-sm-3 control-label" type="checkbox" id="agreement" required>
+
+                        <div class="col-sm-5">
+                            <label for="agreement" class="agreement-label">Wyrażam zgodę na przetwarzanie moich danych
+                                osobowych zawartych w zgłoszeniu dla potrzeb konkursu, zgodnie z ustawą z dnia 29 sierpnia 1997
+                                roku o ochronie danych osobowych. (Dz. U. z 2002 r. Nr 101, poz. 926 z późn. zm.)". </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <input class="checkbox col-sm-3 control-label" type="checkbox" id="agreement" required>
+
+                        <div class="col-sm-5">
+                            <label for="agreement" class="agreement-label">Wyrażam zgodę na przetwarzanie moich danych
+                                osobowych zawartych w zgłoszeniu dla potrzeb konkursu, zgodnie z ustawą z dnia 29 sierpnia 1997
+                                roku o ochronie danych osobowych. (Dz. U. z 2002 r. Nr 101, poz. 926 z późn. zm.)". </label>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="submit-button__container">
+                        <button class="btn submit-button" type="submit">Wyślij</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

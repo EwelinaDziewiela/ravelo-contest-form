@@ -1,0 +1,67 @@
+/*body {*/
+    /*font-family: Open Sans,Arial,Helvetica,sans-serif;*/
+    /*!*font-weight: 400;*!*/
+/*}*/
+
+.contest-wrapper {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.contest-description__wrapper {
+    display: inline-block;
+}
+
+.contest-description__wrapper h2 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #b30068;
+}
+
+
+
+
+
+.form-container {
+    padding: 20px;
+    display: inline-block;
+    margin-top: 65px;
+}
+
+.submit-button__container {
+    display: inline-block;
+}
+
+.submit-button__container .submit-button {
+    margin-left: 160px;
+}
+
+.form-group label {
+    font-weight: 100;
+    line-height: 15px;
+}
+
+.form-group input {
+    padding: 20px;
+}
+
+.form-group .checkbox {
+   margin: 2px 0 0 140px;
+    width: 20px;
+}
+
+.form-group .agreement-label {
+    font-size: 10px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+    .contest-wrapper {
+        margin-left: 20px;
+    }
+
+    .form-group .checkbox {
+        margin-left: 15px;
+    }
+}
